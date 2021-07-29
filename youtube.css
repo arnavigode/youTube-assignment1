@@ -1,0 +1,61 @@
+body {
+  background-color: black;
+}
+
+#container {
+  width: 100%;
+  height: 60px;
+  background-color: rgb(35, 35, 35);
+  margin: none;
+  padding: none;
+}
+/* #start {
+} */
+#menu {
+  width: 60px;
+  height: 60px;
+  /* padding: 8px; */
+  /* margin-right: 8px; */
+  box-sizing: border-box;
+  margin-left: 0%;
+  background: rgb(29, 29, 29);
+  float: left;
+}
+#logoytb {
+  width: 150px;
+  height: 60px;
+  margin-left: 0px;
+  float: left;
+}
+#query {
+  margin-top: 17px;
+  height: 20px;
+  width: 400px;
+  padding: 2px;
+  /* margin-bottom: 10px; */
+  margin-left: 300px;
+  float: left;
+  background: rgb(35, 35, 35);
+  box-shadow: none;
+  border: 1px solid gray;
+  color: wheat;
+}
+#srch {
+  margin-top: 17px;
+  width: 30px;
+  height: 20px;
+  padding: 2px;
+  border: 1px solid gray;
+}
+#lhs {
+  float: right;
+  height: 60px;
+}
+#videos {
+  /* margin-top: 10px; */
+  margin-left: 10%;
+  display: grid;
+  grid-template-columns: repeat(2, 40%);
+  grid-gap: 5%;
+  margin-bottom: 5px;
+}
